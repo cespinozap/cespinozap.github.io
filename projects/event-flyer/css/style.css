@@ -1,0 +1,119 @@
+/* 
+  font-family: "Signika", sans-serif;
+  font-family: "Epunda Sans", sans-serif; 
+
+  blue: 013146
+  lt blue: BCF7FF
+  dk blue: 7DE7F7
+  red: C52804
+  yellow: FCB11D
+  
+  */
+
+html {
+    font-size: 15px; 
+}
+
+body {
+    font-family: "Signika","Epunda Sans", sans-serif;
+    margin: 0;
+    color: #013146;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+
+header,
+footer {
+    background-color: #013146;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 700;
+    color: #FCB11D;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+main {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 0 1rem;
+}
+
+
+section {
+    margin-bottom: 3rem;
+}
+
+
+h1 {
+    font-family: , "Signika", sans-serif;
+    font-weight: 800;
+    color: #013146;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+
+a {
+    color: #FCB11D;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+.register a {
+    background-color: #C52804;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+.schedule p {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.odd {
+    background-color: #BCF7FF;
+}
+.even {
+    background-color: #7DE7F7; 
+}
+
+
+@media (max-width: 600px) {
+    header h1 { font-size: 2rem; }
+    h2 { font-size: 1.25rem; }
+    main { margin: 1.5rem auto; }
+}
